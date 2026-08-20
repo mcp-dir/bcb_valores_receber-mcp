@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/bcb_valores_receber-mcp",
+  "title": "Banco Central do Brasil (BCB): Valores a Receber",
+  "description": "Banco Central do Brasil (BCB): Valores a Receber, official-source lookup. Platform-hosted, pay per q",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/bcb_valores_receber-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_bcb_valores_receber"
+    }
+  ]
+}
